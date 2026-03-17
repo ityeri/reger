@@ -1,6 +1,6 @@
 [project]
 name = "reger"
-version = "0.1.0"
+version = "v0.1.1"
 description = "Simple colour log formatter for logging library"
 readme = "README.md"
 authors = [
