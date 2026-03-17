@@ -10,7 +10,7 @@ Python version: `python>=3.10`
 
 # install
 ```shell
-pip install reger
+pip install git+https://github.com/ityeri/reger.git
 ```
 
 # usage
