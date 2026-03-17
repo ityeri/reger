@@ -1,6 +1,12 @@
 # reger
+[![](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/release/python-3100/)
 
+---
+
+![](./readme_assets/log_sample.png)
 discord.py built-in logger is very neat, so I made this from discord py source
+
+Python version: `python>=3.10`
 
 # install
 ```shell
