@@ -1,5 +1,6 @@
 # reger
 [![](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/release/python-3100/)
+![PyPI - Version](https://img.shields.io/pypi/v/reger)
 
 ---
 
@@ -11,6 +12,12 @@ Python version: `python>=3.10`
 # install
 ```shell
 python3 -m pip install reger
+```
+or
+```toml
+dependencies = [
+    "reger>=0.1.1",
+]
 ```
 
 # usage
