@@ -11,6 +11,12 @@ dependencies = []
 license = "MIT"
 license-files = ["LICENSE"]
 
+[project.urls]
+Homepage = "https://github.com/ityeri/reger"
+Documentation = "https://github.com/ityeri/reger/blob/main/README.md"
+Repository = "https://github.com/ityeri/reger"
+Issues = "https://github.com/ityeri/reger/issues"
+
 [build-system]
 requires = ["uv_build>=0.9.8,<0.10.0"]
 build-backend = "uv_build"
