@@ -19,7 +19,7 @@ python3 -m pip install reger
 or in `pyproject.toml`
 ```toml
 dependencies = [
-    "reger>=0.1.2",
+    "reger>=0.1.3",
 ]
 ```
 
