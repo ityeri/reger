@@ -1,6 +1,6 @@
 [project]
 name = "reger"
-version = "0.1.1"
+version = "0.1.2"
 description = "Simple colour log formatter for logging library"
 readme = "README.md"
 authors = [
@@ -10,9 +10,6 @@ requires-python = ">=3.10"
 dependencies = []
 license = "MIT"
 license-files = ["LICENSE"]
-
-[project.scripts]
-reger = "reger:main"
 
 [build-system]
 requires = ["uv_build>=0.9.8,<0.10.0"]
