@@ -16,7 +16,7 @@ python3 -m pip install reger
 or
 ```toml
 dependencies = [
-    "reger>=0.1.1",
+    "reger>=0.1.2",
 ]
 ```
 
