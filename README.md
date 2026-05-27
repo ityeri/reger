@@ -4,24 +4,27 @@
 
 ---
 
-![](./readme_assets/log_sample.png)
-discord.py built-in logger is very neat, so I made this from discord py source
+![](https://raw.githubusercontent.com/ityeri/reger/main/readme_assets/log_sample.png)
+discord.py built-in logger is very neat, so I made this from discord py source.
+This library provides a nice-looking log formatter
 
 Python version: `python>=3.10`
 
-# install
+# Install
+Using `pip`
 ```shell
 python3 -m pip install reger
 ```
-or
+
+or in `pyproject.toml`
 ```toml
 dependencies = [
-    "reger>=0.1.2",
+    "reger>=0.1.3",
 ]
 ```
 
-# usage
-for root logger:
+# Usage
+For root logger:
 ```python
 import logging
 
@@ -31,7 +34,7 @@ reger.setup_logging()
 logging.info('Hello, reger!')
 ```
 
-with file handler:
+With file handler:
 ```python
 import logging
 
@@ -48,7 +51,7 @@ reger.setup_logging(logger=root_logger)
 logging.info('Hello, reger!')
 ```
 
-for specific handler:
+For specific handler:
 ```python
 import logging
 
