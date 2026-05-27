@@ -11,10 +11,12 @@ This library provides a nice-looking log formatter
 Python version: `python>=3.10`
 
 # Install
+Using `pip`
 ```shell
 python3 -m pip install reger
 ```
-or
+
+or in `pyproject.toml`
 ```toml
 dependencies = [
     "reger>=0.1.2",
